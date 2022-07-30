@@ -1,0 +1,27 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+    to bottom right,
+    #9796f0 0.5%,
+    #fbc7d4 150%
+  );
+  min-height: 100vh;
+}
+
+.emojis-card {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  align-items: center;
+}
+
+.emojisList {
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  justify-content: space-evenly;
+}
